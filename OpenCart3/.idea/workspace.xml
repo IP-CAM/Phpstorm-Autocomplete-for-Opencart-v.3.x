@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="125fc1db-ad46-4fbb-9c37-c8bf15772b1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/action.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/model_admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/model_catalog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/proxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/registry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/length.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/tax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/cart/weight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/encryption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/squareup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/attribute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/attribute_group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/information.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/manufacturer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/recurring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/catalog/review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/customer/custom_field.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/customer/customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/customer/customer_approval.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/customer/customer_group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/design/banner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/design/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/design/seo_url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/design/theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/design/translation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/advertise/google.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/dashboard/activity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/dashboard/chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/dashboard/map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/dashboard/online.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/dashboard/sale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/feed/google_base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/fraud/fraudlabspro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/fraud/ip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/fraud/maxmind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/module/paypal_smart_button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/activity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/customer_transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/marketing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/return.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/extension/report/sale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/geo_zone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/length_class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/order_status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/return_action.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/return_reason.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/return_status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/stock_status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/tax_class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/tax_rate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/weight_class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/localisation/zone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/marketing/coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/marketing/marketing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/report/online.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/report/statistics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/sale/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/sale/recurring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/sale/return.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/sale/voucher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/sale/voucher_theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/setting/event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/setting/extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/setting/modification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/setting/module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/setting/setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/setting/store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/tool/backup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/tool/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/tool/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/user/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/user/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin/user/user_group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/activity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/custom_field.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/customer_group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/recurring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/return.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/reward.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/account/wishlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/catalog/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/catalog/information.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/catalog/manufacturer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/catalog/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/catalog/review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/checkout/marketing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/checkout/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/checkout/recurring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/design/banner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/design/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/design/theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/design/translation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/advertise/google.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/credit_card/squareup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/feed/google_base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/fraud/fraudlabspro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/fraud/ip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/fraud/maxmind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/module/amazon_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/module/laybuy_layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/module/paypal_smart_button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/credit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/handling.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/klarna_fee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/low_order_fee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/reward.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/shipping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/sub_total.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/tax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/total.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/voucher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/extension/total/voucher_theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/order_status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/return_reason.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/localisation/zone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/report/statistics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/setting/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/setting/event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/setting/extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/setting/module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/setting/setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/setting/store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/tool/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/tool/online.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/catalog/tool/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2O8wNsl8OuuGiXPqAzLkrEEXPd1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="125fc1db-ad46-4fbb-9c37-c8bf15772b1c" name="Changes" comment="" />
+      <created>1680955481340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680955481340</updated>
+      <workItem from="1680955483416" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
