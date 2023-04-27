@@ -1,5 +1,5 @@
 <?php
-abstract class Log {
+class Log {
     /**
      * @param string $filename
      */
@@ -9,7 +9,7 @@ abstract class Log {
      * @param string $message
      * @return void
      */
-    abstract public function write(string $message): void;
+    public function write(string $message): void {}
 
     /**
      *

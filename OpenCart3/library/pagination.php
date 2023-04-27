@@ -1,5 +1,5 @@
 <?php
-abstract class Pagination {
+class Pagination {
     /**
      * @var int
      */
@@ -40,5 +40,5 @@ abstract class Pagination {
     /**
      * @return string
      */
-    abstract public function render(): string;
+    public function render(): string {}
 }

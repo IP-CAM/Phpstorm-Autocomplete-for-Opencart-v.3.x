@@ -1,5 +1,5 @@
 <?php
-abstract class Mail {
+class Mail {
     /**
      * @var string
      */
@@ -14,52 +14,52 @@ abstract class Mail {
      * @param string $to
      * @return void
      */
-    abstract public function setTo(string $to): void;
+    public function setTo(string $to): void {}
 
     /**
      * @param string $from
      * @return void
      */
-    abstract public function setFrom(string $from): void;
+    public function setFrom(string $from): void {}
 
     /**
      * @param string $sender
      * @return void
      */
-    abstract public function setSender(string $sender): void;
+    public function setSender(string $sender): void {}
 
     /**
      * @param string $reply_to
      * @return void
      */
-    abstract public function setReplyTo(string $reply_to): void;
+    public function setReplyTo(string $reply_to): void {}
 
     /**
      * @param string $subject
      * @return void
      */
-    abstract public function setSubject(string $subject): void;
+    public function setSubject(string $subject): void {}
 
     /**
      * @param string $text
      * @return void
      */
-    abstract public function setText(string $text): void;
+    public function setText(string $text): void {}
 
     /**
      * @param string $html
      * @return void
      */
-    abstract public function setHtml(string $html): void;
+    public function setHtml(string $html): void {}
 
     /**
      * @param string $filename
      * @return void
      */
-    abstract public function addAttachment(string $filename): void;
+    public function addAttachment(string $filename): void {}
 
     /**
      * @return void
      */
-    abstract public function send(): void;
+    public function send(): void {}
 }
