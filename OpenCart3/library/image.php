@@ -1,5 +1,5 @@
 <?php
-abstract class Image {
+class Image {
     /**
      * @param string $file
      */
@@ -51,11 +51,11 @@ abstract class Image {
     abstract public function resize(int $width = 0, int $height = 0, string $default = ''): void;
 
     /**
-     * @param string $watermark
+     * @param Image $watermark
      * @param string $position
      * @return void
      */
-    abstract public function watermark(string $watermark, string $position = 'bottomright'): void;
+    abstract public function watermark(Image $watermark, string $position = 'bottomright'): void;
 
     /**
      * @param int $top_x
