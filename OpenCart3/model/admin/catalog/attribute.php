@@ -26,7 +26,7 @@ abstract class ModelCatalogAttribute extends Model {
      * @param int $attribute_id
      * @return void
      */
-    abstract public function getAttribute(int $attribute_id): void;
+    abstract public function getAttribute(int $attribute_id): array;
 
     /**
      * @param array $data
